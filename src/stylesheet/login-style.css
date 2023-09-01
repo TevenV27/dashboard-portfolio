@@ -1,0 +1,59 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+input{
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+}
+button{
+    height: 40px;
+}
+.login-box{
+    background: rgba(0, 0, 0, 0.13);
+    padding: 0px 30px 40px 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 1px 0px 0px greenyellow;
+    
+}
+.box-title{
+    padding: 30px 40px;
+
+}
+.sybols-text{
+    color: rgba(0, 221, 255, 0.911);
+}
+
+h1{
+    color: greenyellow;
+    font-size: 3.5rem;
+}
+
+.box-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background: greenyellow;
+    border: none;
+    color: #111111;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size:1rem;
+    cursor: pointer;
+}
+button:hover{
+    background: #111111;
+    color: greenyellow;
+    box-shadow: 0px 0px 0px 1px greenyellow;
+}
