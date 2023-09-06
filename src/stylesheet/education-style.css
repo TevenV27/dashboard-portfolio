@@ -1,0 +1,11 @@
+.education-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card-education{
+    width: 300px;
+    background: #101010;
+    padding: 10px;
+    border-radius: 3px;
+}

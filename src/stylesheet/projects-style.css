@@ -1,0 +1,64 @@
+.container-projects {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.img-project {
+    width: 200px;
+    cursor: pointer;
+}
+
+.card-project {
+    overflow: hidden;
+    background-color: #101010be;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.project-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.img-container:hover {
+    .img-project{
+        filter: blur(1px) brightness(50%);
+        opacity: 0.6;
+    }
+    .options {
+        display: flex;
+     
+    }
+}
+
+.options {
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    gap: 20px;
+    transform: translate(-50%, -50%);
+    .option{
+        background-color: #101010;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .option:hover{
+        box-shadow:  0px 0px 0px 1px greenyellow;
+        color: greenyellow;
+    }
+}
